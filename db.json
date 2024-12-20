@@ -1,0 +1,140 @@
+{
+    "products":[
+        {
+            "id":1,
+            "name":"Backless Top",
+            "price":"1000",
+            "sizes":["S","M","L"],
+            "colors":"brown",
+            "image":"https://i.pinimg.com/236x/ed/ea/ff/edeaff57fd3b17ccbd92656c102a21d0.jpg",
+            "category":"Tops"
+        },
+        {
+            "id":2,
+            "name":"Offshoulder Top",
+            "price":"1000",
+            "sizes":["S","M","L"],
+            "colors":["black","grey"],
+            "image":"https://i.pinimg.com/236x/e6/3f/37/e63f37e071ac2cabfa578f2a6831372e.jpg",
+            "category":"Tops"  
+        },
+        {
+            "id":3,
+            "name":"Corset Top",
+            "price":1000,
+            "sizes":["S","M","L"],
+            "colors":"white",
+            "image":"https://i.pinimg.com/236x/cc/ff/32/ccff32221072df4cf7f3416dfb46a498.jpg",
+            "category":"Tops" 
+        },
+        {
+            "id" :"4",
+            "name":"Wideleg Jeans",
+            "price":2000,
+            "sizes":["S","M","L"],
+            "colors":"blue",
+            "image":"https://i.pinimg.com/236x/9f/73/0e/9f730e4c00523f1d260d4914d78ffaa7.jpg",
+            "category":"Jeans"  
+            },
+            {
+             "id" :"5",
+             "name":" Ripped Jeans",
+             "price":2000,
+             "sizes":["S","M","L"],
+             "colors":"grey",
+             "image":"https://i.pinimg.com/236x/63/2a/af/632aaf9e4c197f3b02613d6bcf348d27.jpg",
+             "category":"Jeans" 
+            },
+            {
+             "id" :"6",
+             "name":" Wideleg Ripped Jeans",
+             "price":2000,
+             "sizes":["S","M","L"],
+             "colors":"black",
+             "image":"https://i.pinimg.com/236x/d2/cc/61/d2cc61cb7d0fabb169a4794692c31912.jpg",
+             "category":"Jeans" 
+            },
+            {
+             "id" :"7",
+             "name":"Formal Sleeveless Dress",
+             "price":3000,
+             "sizes":["S","M","L"],
+             "colors":"black",
+             "image":"https://i.pinimg.com/236x/fb/2f/9b/fb2f9bc5b002cd973830c1e23ee51eab.jpg",
+             "category":"Dresses" 
+            },  
+            {
+             "id" :"8",
+             "name":"Long-sleeved Mini Dress",
+             "price":3000,
+             "sizes":["S","M","L"],
+             "colors":"white",
+             "image":"https://i.pinimg.com/236x/5d/f9/cb/5df9cb835e934a9838976bae6b2f1b83.jpg",
+             "category":"Dresses"
+            },
+             {
+             "id" :"9",
+             "name":"Offshoulder Dress",
+             "price":3000,
+             "sizes":["S","M","L"],
+             "colors":"black",
+             "image":"https://i.pinimg.com/236x/2c/d0/0e/2cd00e3040d5d9c10034c8df4f47a2a8.jpg",
+             "category":"Dresses"
+                },
+             {
+             "id":"10",
+             "name":"Leather Skirt",
+             "price":1500,
+             "sizes":["S","M","L"],
+             "colors":"black",
+             "image":"https://i.pinimg.com/236x/72/83/7d/72837d789a912e613c58c513fa6004af.jpg",
+             "category":"Skirts"
+             },
+             {
+             "id":"11",
+             "name":"Maxi Skirt",
+             "price":1500,
+             "sizes":["S","M","L"],
+             "colors":"brown",
+             "image":"https://i.pinimg.com/236x/d1/b8/6b/d1b86b5fa82762d51fabb710cc3b09ad.jpg",
+             "category":"Skirts" 
+             },
+             {
+              "id":"12",
+             "name":"Denim Skirt",
+             "price":1500,
+             "sizes":["S","M","L"],
+             "colors":["blue","black"],
+             "image":"https://i.pinimg.com/236x/ee/4c/5f/ee4c5f4781b33c7451b730637b41b927.jpg",
+             "category":"Skirts"   
+             },
+             {
+             "id":"13",
+             "name":"Fur Jacket",
+             "price":3000,
+             "sizes":["S","M","L"],
+             "colors":"black",
+             "image":"https://i.pinimg.com/236x/0b/3e/73/0b3e7346b8c699f3d1899f57cdd3a25b.jpg",
+             "category":"Jackets"
+            },
+            {
+             "id":"14",
+             "name":"Leather Jacket",
+             "price":3000,
+             "sizes":["S","M","L"],
+             "colors":"brown",
+             "image":"https://i.pinimg.com/236x/6e/3b/6c/6e3b6cff7af0c7e6445103d02f2bef5e.jpg",
+             "category":"Jackets"
+             },
+             {
+              "id":"15",
+             "name":"Denim Jacket",
+             "price":3000,
+             "sizes":["S","M","L"],
+             "colors":"black",
+             "image":"https://i.pinimg.com/236x/2f/21/31/2f2131e8ecd8b8e4c87d02337a81ac7d.jpg",
+             "category":"Jackets"  
+             }
+                ]
+            }
+           

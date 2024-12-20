@@ -1,0 +1,249 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: black;
+    color: white;
+    padding: 20px 50px;
+}
+
+.navTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navItem {
+    display: flex;
+    align-items: center;
+}
+
+.navRight{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+h3 {
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+h6 {
+    margin-top: 0;
+    font-style: italic;
+}
+
+
+.search {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+    justify-content: center;
+    
+}
+
+.searchInput {
+    border: none;
+    background-color: transparent;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 4px;
+    width:150px;
+    height:10px;
+}
+
+.search .btn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0 5px;
+}
+
+.profile, .cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    size: 10px;
+}
+
+
+.navBottom {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+}
+
+.navBottom ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.navBottom ul li {
+    margin: 0 5px;
+    margin-right: 15px;
+}
+
+.navBottom a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 15px;
+    transition: color 0.3s
+}
+
+.navBottom ul a:hover {
+    color: grey;
+}
+
+#model {
+    background-image: url("image/model3.jpg");
+    height: 90vh;
+    width: 100%;
+    margin-top: 15px;
+    background-repeat: no-repeat;
+    background-position: top 25%right;
+    background-size: auto;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#model h1 {
+    font-weight: bolder;
+    color: brown;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: 20px auto;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container img {
+    border: 2px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container img:hover {
+    transform: scale(0.9);
+}
+
+.footerMenu {
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.modal-content {
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.modal-header {
+    background-color: #343a40;
+    color: #fff;
+    border-bottom: 2px solid #ffc107;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.modal-body {
+    padding: 20px;
+    font-size: 16px;
+    color: #495057;
+    background-color: #f8f9fa;
+}
+
+.cart-items-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.cart-items-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-items-list li:last-child {
+    border-bottom: none;
+}
+
+.total-price {
+    font-weight: bold;
+    text-align: right;
+    margin-top: 15px;
+    font-size: 18px;
+    color: #000;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    border-top: 2px solid #ffc107;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 15px;
+}
+
+.close-btn {
+    background-color: #6c757d;
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.close-btn:hover {
+    background-color: #5a6268;
+}
+
+.checkout-btn {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.checkout-btn:hover {
+    background-color: #218838;
+}
